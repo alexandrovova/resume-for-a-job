@@ -1,0 +1,60 @@
+.Modal-form {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Modal-form__window {
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid;
+    background-color: pink;
+}
+.modal-form__buutton-open{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Modal-form--close{
+    display: none;
+}
+
+
+.Modal-pdf {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Modal-pdf__window {
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid;
+    background-color: pink;
+}
+.modal-pdf__buutton-open{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Modal-pdf--close{
+    display: none;
+}

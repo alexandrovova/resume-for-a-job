@@ -1,0 +1,291 @@
+.Page_body{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0  ;
+    min-width: 280px;
+    width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_header__logo{
+    border-radius: 50%;
+    border: 3px solid purple;
+    object-fit: cover;
+    
+}
+
+.main_header{
+    display: flex;
+    width: 1220px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.main_header__box{
+    background-color: purple;
+    width: 75%;
+    color: white;
+    padding-left: 30px;
+}
+
+.main_header__name{
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.main_header__decription{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.main_header__border{
+    height: 3px;
+    background-color: aliceblue;
+}
+
+.main_header__text{
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 20px;
+}
+
+
+/*main*/
+.main_container{
+    display: flex;
+    width: 1220px;
+    margin: auto;
+    justify-content: space-between;
+    justify-content: space-between;
+}
+
+.main_container__aside{
+    width: 25%;
+}
+
+.adresse{
+    font-weight: 400;
+    font-size: 15px;
+    }
+
+.adresse_list{
+list-style-type:none;
+margin: 0;
+padding: 0;
+margin-left: 10px;
+color: black;
+}
+.adresse__item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.adresse_link{
+    text-decoration: none;
+}
+.adresse_link:active{
+    color: brown;
+}
+.adresse_link:visited{
+    color: black;
+}
+
+.skills{
+    font-weight: 400;
+    font-size: 20px;
+}
+.skills__head{
+    color: purple;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.skills__border{
+    height: 2px;
+    background-color: purple;
+    margin-top: -15px;
+}
+
+.skills__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 25px;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.skills__item{
+    font-weight: 600;
+    font-size: 19px;
+    padding: 10px;
+    border: 1px solid purple;
+    margin: 10px;
+    background-color: plum;
+    color: aliceblue;
+    border-radius: 10%;
+}
+.interest{
+    font-weight: 400;
+    font-size: 20px;
+}
+.interest__head{
+    color: purple;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.interest__border{
+    height: 2px;
+    background-color: purple;
+    margin-top: -15px;
+}
+.interest__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 25px;
+  
+   text-align: center;
+}
+.interest__item{
+    padding: 10px;
+    border: 3px solid purple;
+    margin: 5px;
+
+}
+
+.main_container__summary{
+    width: 75%;
+
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.educations__education{
+    color: purple;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.educations__border{
+    height: 2px;
+    background-color: purple;
+    margin-top: -15px;
+    margin-right: 30px;
+}
+.educations__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.educations__speciality{
+    margin-left: 10px;
+    font-weight: 400;
+}
+.educations__data{
+    display: flex;
+    justify-content: space-between;
+    color: purple;
+    
+}
+.educations__courses{
+    color: purple;
+}
+.educations__courses-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+}
+.certificates__certificat{
+    color: purple;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.certificates__border{
+    height: 2px;
+    background-color: purple;
+    margin-top: -15px;
+    margin-right: 30px;
+}
+.certificates__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    
+}
+.certificates__result{
+    padding-left: 40px;
+    color: purple;
+}
+.certificates__button{
+    padding: 5px;
+   width: 97%;
+   margin-right: 40px;
+   border: 1px solid purple;
+   background-color: plum;
+   color: aliceblue;
+   cursor: pointer;
+}
+.projects__project{
+    color: purple;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.projects__border{
+    height: 2px;
+    background-color: purple;
+    margin-top: -15px;
+    margin-right: 30px;
+}
+.projects__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+.projects__stec{
+    padding-left: 40px;
+    color: purple;
+}
+.achievements__achievement{
+    color: purple;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.achievements__border{
+    height: 2px;
+    background-color: purple;
+    margin-top: -15px;
+    margin-right: 30px;
+}
+.achievements__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+.achievements__stec{
+    padding-left: 40px;
+    color: purple;
+}
+.footer__name{
+    text-align: center;
+    color: tomato;
+}
+.svg{
+    fill: purple;
+    padding: 5px;
+    
+}
